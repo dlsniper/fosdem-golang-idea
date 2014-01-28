@@ -1,0 +1,174 @@
+Go with IntelliJ IDEA (and not only)
+A short intro of the golang plugin for IntelliJ based IDEs
+2 Feb 2014
+
+Florin Patan
+Senior Software Engineer / DevOps, motain GmbH
+florinpatan@gmail.com
+http://github.com/dlsniper
+@dlsniper
+
+* Who am I?
+
+My name is Florin.
+
+Writing software for about 10 years.
+
+Discovered Go about 8 months ago.
+
+I'm a Senior Software Engineer / DevOps at motain GmbH.
+
+* THE Football App
+
+.image idea-golang/tfa.png 80 306
+.image idea-golang/tfa_large.jpg 370 800
+
+* JetBrains: IntelliJ IDEA et al
+
+IntelliJ IDEA is _The_Most_Intelligent_IDE_for_the_Java_Platform_ and not only.
+
+Best features that IDEA has are:
+
+- smart Code completion
+- on-the-fly code analysis
+- advanced refactorings
+- version control tools
+
+There are many others that you'll need to discover on your own.
+
+* JetBrains: IntelliJ IDEA et al
+
+IntelliJ IDEA is a *polyglot* IDE with comprehensive support for multiple languages, including:
+
+- Java, Scala, Groovy, Clojure and Kotlin
+- PHP, Python and Ruby
+- SQL, including PostgreSQL, MySQL, Oracle, SQL Server and many other dialects
+- includes code assistance for HTML5, CSS3, SASS, LESS, JavaScript, CoffeeScript, Node.js, ActionScript and other languages.
+
+Mobile development:
+- Support for Android, including refactorings and handy UI designer.
+- Development tools for AIR Mobile with support for Android and iOS devices.
+
+"Try IntelliJ IDEA once and you’ll never use another IDE again."
+And it's true, I never could use another editor / IDE again.
+
+* Go plugin for IntelliJ platform
+
+Basic features that the plugin supports:
+
+- language parsing and highlighting
+- auto completion
+- unused imports/variables/constants/parameters/symbols
+- go get/fmt/run/build integration
+- documentation for functions, methods, variable, constants and types
+- function parameter information
+- GoTo navigation
+- live code templates
+- code inspections
+- code folding and brace matching
+
+* Hello World
+
+.image idea-golang/jet-gopher3.png 600 589
+
+* The grey side of the Force
+
+As is with every software, sometimes not every feature is up on par with what the user / authors intend:
+
+- GOPATH doesn't always works out of the box
+- support for custom installations could be better
+- code analysis could use more inspections
+- refactoring support is scarce
+- resolver sometimes is unwilling to cooperate
+
+* GO IDE
+
+The initial idea was to prepackage the plugin with a build of Intellij Community into a complete Go IDE.
+
+Unfortunately the time/effort proved to not be enough to be able to support it.
+
+We need testers/maintainers to support it properly.
+
+You can watch [[http://go-ide.com][go-ide.com]] for announcements.
+
+* Upcoming changes
+
+- Go AppEngine support
+- better inspections
+- templates for test files (based on test framework used)
+- better GOPATH integration
+- code refactoring
+- gccgo support
+- support for popular tools such as golint
+
+* Go AppEngine integration
+
+As I've already mentioned, one of the upcoming features in the next release will be better support for Go AppEngine.
+
+* The "unicorn"
+
+One of the features that an IDE should have is a debugger.
+
+It's also one of the most requested features.
+
+But having one integrated in IDEA is not an easy task.
+
+I'm dedicating my full time to it but help is welcomed.
+
+* Help us
+
+If you like what we've did so far, or if you'd like something added / improved, we are gladly accepting contributions.
+
+To contribute you could start by writing some docs, submit proper issue reports.
+
+You could also try to fix something that we didn't had time to fix just yet but you'd like to see it released faster. We'll try to assist you if we can.
+
+* Credits
+
+The following people made this possible
+
+Mihai Claudiu Toader (original author) [[https://github.com/mtoader]]
+
+Florin Patan [[https://github.com/dlsniper]]
+
+José Santos [[https://github.com/josehsantos]]
+
+Ewan Chou [[https://github.com/coocood]]
+
+@leojah [[https://github.com/leojay]]
+
+All other contributors [[https://github.com/go-lang-plugin-org/go-lang-idea-plugin/graphs/contributors][listed on GitHub]]
+
+A very special *Thank*you!* to all those who helped out testing while in beta and those who submitted issue reports.
+
+Special thanks for Go AppEngine integration testing to Gert Cuykens [[https://github.com/gertcuykens]].
+
+* Credits
+
+Texts describing IntelliJ IDEA have been taken from JetBrains website.
+
+The logos for all JetBrains IDEs are property of JetBrains.
+
+The Go Gopher logo [[http://golang.org/doc/faq#Whats_the_origin_of_the_mascot][golang.org / Whats the origin of the mascot]]
+
+* Links
+
+JetBrains Plugins repository
+
+.link http://plugins.jetbrains.com/plugin/5047
+
+Go plugin @ GitHub
+
+.link https://github.com/go-lang-plugin-org/go-lang-idea-plugin
+
+IntelliJ IDEA
+
+.link http://www.jetbrains.com/idea
+
+JetBrains
+
+.link http://www.jetbrains.com
+
+Go Programming Language
+
+.link http://golang.org
